@@ -1,0 +1,42 @@
+/* Story page container */
+.story-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fffdf9;
+  border: 1px solid #e6b17e;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Story text */
+.story h2 {
+  color: #8b5e3c;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.story-intro {
+  font-style: italic;
+  color: #704214;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Story image */
+.story-image {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Story body */
+.story p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a3c2a;
+}

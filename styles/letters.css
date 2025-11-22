@@ -1,0 +1,30 @@
+/* Letter page container */
+.letter-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #fffdf8;
+  border: 1px solid #e6b17e;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Letter text */
+.letter {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a3c2a;
+}
+
+/* Greeting */
+.letter-greeting {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #704214;
+}
+
+p {
+  margin-bottom: 20px;
+}

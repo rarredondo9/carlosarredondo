@@ -1,0 +1,314 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Lora:wght@400;500&display=swap');
+
+/* =====================================
+   GLOBAL RESET & BASE STYLES
+===================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #f9f8f6;
+  color: #2e2b29;
+  line-height: 1.7;
+  padding: 0 20px;
+  letter-spacing: 0.2px;
+}
+
+/* =====================================
+   HEADER & NAVIGATION
+===================================== */
+header {
+  text-align: center;
+  padding: 60px 0 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0dcd6;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem;
+  color: #2e2b29;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: #8b7e74;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+header p {
+  color: #9a8f85;
+  margin-top: 16px;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2e2b29;
+  font-weight: 500;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+nav ul li a:hover {
+  background: #f3efe9;
+  color: #000;
+}
+
+nav ul li a.active {
+  background: #d5c9b8;
+  color: #fff;
+}
+
+/* =====================================
+   INTRO SECTION
+===================================== */
+.intro {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.main-photo {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 25px;
+  border-radius: 16px;
+  border: 1px solid #e6e0d8;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  object-fit: cover;
+}
+/* =====================================
+   CARDS SECTION
+===================================== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-content: center;
+  margin: 80px auto;
+  max-width: 900px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #e6e0d8;
+  border-radius: 20px;
+  text-align: center;
+  padding: 32px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.06);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; 
+  background-color: #fff; 
+  border-radius: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #eee5db;
+}
+
+.card h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #2e2b29;
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+.card p {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  color: #776f66;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #bba78a;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  align-self: center;
+}
+
+.btn:hover {
+  background: #a28e74;
+  transform: scale(1.05);
+}
+
+/* =====================================
+   PAGE TITLES
+===================================== */
+.page-title {
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #2e2b29;
+  font-size: 2.4rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.page-intro {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 1.1rem;
+  color: #6d645b;
+  font-style: italic;
+}
+
+/* =====================================
+   DIARY PAGE
+===================================== */
+.about-me {
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.85;
+  font-size: 1.08rem;
+}
+
+/* Section spacing */
+.about-me section {
+  background: #fff;
+  padding: 35px 40px;
+  margin: 40px 0;
+  border-radius: 18px;
+  border: 1px solid #e8e2db;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+/* Better title styling */
+.about-me h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #3b3632;
+  border-left: 6px solid #d5c9b8;
+  padding-left: 12px;
+  text-align: center;
+}
+
+.about-me h3,
+.about-me h4 {
+  text-align: center;
+}
+
+/* Blockquote elegant style */
+.testimony blockquote {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #f7f4f1;
+  padding: 25px 30px;
+  border-left: 5px solid #b49f8a;
+  border-radius: 12px;
+  font-style: italic;
+  color: #4a433e;
+  line-height: 1.9;
+}
+
+/* Images */
+.family-tree-img,
+.family-member-img,
+.patriarcal-blessings-img {
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  margin: 20px auto;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  border: 1px solid #e8e2db;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Teaching cards inside diary */
+.teaching-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teaching-card {
+  background: #fff;
+  padding: 20px 25px;
+  width: 260px;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #e6dfd6;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease;
+}
+
+.teaching-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Links inside cards */
+.teaching-card a {
+  color: #927e65;
+  font-weight: bold;
+  text-decoration: none;
+}
+.teaching-card a:hover {
+  text-decoration: underline;
+}
+/* =====================================
+   FOOTER
+===================================== */
+footer {
+  text-align: center;
+  padding: 30px;
+  margin-top: 60px;
+  background: #fff;
+  border-top: 1px solid #e0dcd6;
+  color: #6b635b;
+  font-size: 0.95rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.03);
+}

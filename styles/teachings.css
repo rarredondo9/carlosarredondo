@@ -1,0 +1,108 @@
+/* =====================================
+   TEACHINGS PAGE — ARTICLE STYLE
+===================================== */
+
+.lesson-container {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.lesson {
+  background: #ffffff;
+  padding: 45px 55px;
+  border-radius: 20px;
+  border: 1px solid #e6e0d8;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  line-height: 1.85;
+  color: #2e2b29;
+}
+
+/* ===========================
+   TITLES
+=========================== */
+
+.lesson h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #3a3632;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.lesson h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.7rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #5a524c;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+
+.lesson p {
+  font-size: 1.08rem;
+  margin-bottom: 22px;
+  color: #4a443f;
+  text-align: justify;
+}
+
+/* Strong emphasis */
+.lesson p strong {
+  color: #3f3a35;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+}
+
+/* ===========================
+   QUOTES OR SCRIPTURE STYLE
+=========================== */
+
+.lesson blockquote {
+  margin: 25px auto;
+  background: #f7f4f1;
+  padding: 20px 28px;
+  border-left: 6px solid #b9a48e;
+  border-radius: 12px;
+  font-style: italic;
+  color: #5a524c;
+  max-width: 720px;
+  line-height: 1.9;
+}
+
+/* ===========================
+   LISTS FOR NUMBERED POINTS
+=========================== */
+
+.lesson ol {
+  margin: 20px 0;
+  padding-left: 25px;
+  font-size: 1.08rem;
+}
+
+.lesson ol li {
+  margin-bottom: 14px;
+  padding-left: 5px;
+  color: #4b453f;
+}
+
+/* ===========================
+   MEDIA (in case you add images later)
+=========================== */
+
+.lesson img {
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  margin: 25px auto;
+  border-radius: 16px;
+  border: 1px solid #e6e0d8;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
