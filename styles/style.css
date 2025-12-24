@@ -298,6 +298,28 @@ nav ul li a.active {
 .teaching-card a:hover {
   text-decoration: underline;
 }
+
+/* =====================================
+   GALLERY / COLLAGE
+===================================== */
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.collage img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #e6e0d8;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
 /* =====================================
    FOOTER
 ===================================== */
