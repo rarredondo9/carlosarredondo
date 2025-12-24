@@ -305,19 +305,19 @@ nav ul li a.active {
 
 .collage {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 16px;
-  max-width: 1000px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 900px;
   margin: 0 auto 60px;
 }
 
 .collage img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 16px;
+  border-radius: 18px;
   border: 1px solid #e6e0d8;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.07);
 }
 
 /* =====================================
